@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather Forecast
+    </title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="wheather-details">
+        <div class="container">
+
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="cities.html">city</a>
+                    </li>
+                    <li>
+                        <a href="news.html">News</a>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <h1 class="temp">16&#176</h1>
+                <div class="city-time">
+                    <h1 class="name">Mumbai</h1>
+                    <small>
+                        <span class="time">06:20</span>
+                        -
+                        <span class="date">
+                            Monday Mar 23
+                        </span>
+                    </small>
+                </div>
+
+                <div class="wheather">
+                    <img src="./weather/64x64/day/113.png" class="icon" alt="icon" width="50" height="50" />
+                </div>
+                <span class="condition">Cloudy</span>
+
+            </div>
+        </div>
+    </div>
+    
+    <div class="panel">
+        <ul class="details">
+            <h4>Wheather Details</h4>
+            <li>
+                <span>Cloudy</span>
+                <span class="cloud">89%</span>
+            </li>
+            <li>
+                <span>Humidity</span>
+                <span class="humidity">64%</span>
+            </li>
+            <li>
+                <span>Wind</span>
+                <span class="wind">64 km/hr</span>
+            </li>
+        </ul>
+       
+    </div>
+    <div class="city-section">
+        <h1 class="title">Cities</h1>
+        <div class="main">
+            <div class="grid-item">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.9Rcl6Hl12PgyW-yV5cpBkAHaEK&pid=Api&P=0">
+                <label class="whe">Thunder</label>
+                <h1 class="temp1">24&#176</h1>
+                <h3 class="name1">Delhi</h3>
+                <small>
+                    <span class="time1">
+                        06/03/2013
+                    </span>
+                </small>
+            </div>
+            <div class="grid-item">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.3B_4TAk7SspQ597omIhUkQHaF7&pid=Api&P=0">
+                <label class="whe">Cloudy</label>
+                <h1 class="temp1">29&#176</h1>
+
+                <h3 class="name1">Chennai</h3>
+                <small>
+                    <span class="time1">
+                        06/03/2013
+                    </span>
+                </small>
+
+            </div>
+            <div class="grid-item">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.PpxFapX-_CM6dsMv2geoJgHaEo&pid=Api&P=0">
+                <label class="whe">Sunny</label>
+                <div>
+                    <h1 class="temp1">40&#176</h1>
+
+                    <h3 class="name1">Jaipur</h3>
+                    <small>
+                        <span class="time1">
+                            06/03/2013
+                        </span>
+                    </small>
+
+                </div>
+
+            </div>
+            <form id="locationInput">
+                <input type="text" class="search" placeholder="Enter City" />
+                <button type="submit" class="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="news">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.c9EiM9W8xL1PGf5l7FmvTQHaEo&pid=Api&P=0">
+    </div>
+    <h1 class="title">News</h1>
+    <div class="main1">
+        <div class="grid-item1">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.9Rcl6Hl12PgyW-yV5cpBkAHaEK&pid=Api&P=0">
+            <label class="info">Thunder stikes Delhi</label>
+
+        </div>
+        <div class="grid-item1">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.3B_4TAk7SspQ597omIhUkQHaF7&pid=Api&P=0">
+            <label class="info">CloudStorm in Manipur</label>
+
+        </div>
+        <div class="grid-item1">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.PpxFapX-_CM6dsMv2geoJgHaEo&pid=Api&P=0">
+            <label class="info">Its Summer season in Mumbai</label>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer>
+            <div class="footer">
+                WHEATHERAPP
+            </div>
+            <div class="rightfooter">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Cities</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQs</a>
+                    </li>
+                    <li>
+                        <a href="#">News</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
