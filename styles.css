@@ -270,7 +270,7 @@ position: absolute;
 .time1 {
     margin-top: -90% ;
     margin-right: 30%;
-    margin-left: 60%;
+    margin-left: 55%;
     font-size: 1rem;
 }
 /* .main{
@@ -377,7 +377,7 @@ background-size: cover;
 
 @media screen and (max-width: 768px) {
     html {
-       font-size: 45%; 
+       font-size: 35%; 
     }
     nav{
         flex-direction: column;
