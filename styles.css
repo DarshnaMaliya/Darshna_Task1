@@ -132,8 +132,8 @@ nav ul li a {
     border: 1px solid grey;
     box-shadow: 0 8px 32px 5px rgba(0, 0, 0, 0.3);
    left:80%;
-   right: 30%;
-   top:20px;
+   right:30%;
+   top:10%;
    padding-left: 3px;
 }
 /* .city-section{
@@ -384,6 +384,12 @@ background-size: cover;
     nav{
         flex-direction: column;
     }
+    .panel {
+        max-height: 18%;
+    }
+    #locationInput {
+        max-height: 20%;
+    }
 }
 
 @media all and (max-height : 300px ){
@@ -403,7 +409,6 @@ background-size: cover;
     
     } */
 }  
-
 
 
 
