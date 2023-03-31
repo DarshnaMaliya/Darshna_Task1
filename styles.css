@@ -13,7 +13,7 @@ h1 {
     font-weight: 500;
 }
 .wheather-details {
-    min-height: 100vh;
+    min-height: 80vh;
     background-image: url("https://now.northropgrumman.com/wp-content/uploads/sites/2/2020/06/weather.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -130,14 +130,15 @@ nav ul li a {
 
 #locationInput {
     position: relative;
-    width:120%;
+    /* width:120%; */
+    width: 50%;
     height:50%;
     border: 1px solid grey;
     box-shadow: 0 8px 32px 5px rgba(0, 0, 0, 0.3);
-   left:80%;
+   left:25%;
    right:30%;
-   top:10%;
-   padding-left: 3px;
+   /* top:10%; */
+   padding: 1rem;
 }
 /* .city-section{
 position: relative;
@@ -226,11 +227,11 @@ position: absolute;
 }
 .main {
     display: grid;
-    min-height: 100vh;
+    min-height: 30rem;
     grid-template-columns: 47% 47% 47%;
     background-color: white;
-    padding: 10px;
-    grid-gap: 10px;
+    padding: 1rem;
+    grid-gap: 1rem;
     margin-left: 10%;
     margin-right: 30%;
     position: relative;
@@ -269,7 +270,7 @@ position: absolute;
     font-size: 1rem;
 }
 .time1 {
-    margin-top: -90% ;
+    margin-top: -25% ;
     margin-right: 30%;
     margin-left: 55%;
     font-size: 1rem;
@@ -281,7 +282,7 @@ position: absolute;
 /* .news {
     background-color: #000;
 } */
-.news img {
+#news img {
 height: 19rem;
 width: 100%;
 background-size: cover;
@@ -290,10 +291,8 @@ background-size: cover;
     width:70%;
     display: grid;
     min-height: 28vh;
-
     grid-template-columns: 40% 40% 40%;
     background-color: white;
-    
     grid-gap: 10px;
     margin-left: 10%;
     margin-right: 30%;

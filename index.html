@@ -23,10 +23,10 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="cities.html">City</a>
+                        <a href="#city-section">City</a>
                     </li>
                     <li>
-                        <a href="news.html">News</a>
+                        <a href="#news">News</a>
                     </li>
                 </ul>
             </nav>
@@ -68,9 +68,23 @@
                 <span class="wind">64 km/hr</span>
             </li>
         </ul>
-       
-    </div>
-    <div class="city-section">
+        </div>
+      <br/>
+            <form id="locationInput">
+                <input type="text" class="search" placeholder="Enter City" />
+                <button type="submit" class="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+            <br/>
+    <!-- <form id="locationInput">
+        <input type="text" class="search" placeholder="Enter City" />
+        <button type="submit" class="submit">
+            <i class="fa fa-search"></i>
+        </button>
+    </form> -->
+   
+    <div id="city-section">
         <h1 class="title">Cities</h1>
         <div class="main">
             <div class="grid-item">
@@ -113,16 +127,11 @@
                 </div>
 
             </div>
-            <form id="locationInput">
-                <input type="text" class="search" placeholder="Enter City" />
-                <button type="submit" class="submit">
-                    <i class="fa fa-search"></i>
-                </button>
-            </form>
+            
         </div>
     </div>
-
-    <div class="news">
+   
+    <div id="news">
         <img src="https://tse1.mm.bing.net/th?id=OIP.c9EiM9W8xL1PGf5l7FmvTQHaEo&pid=Api&P=0">
     </div>
     <h1 class="title">News</h1>
